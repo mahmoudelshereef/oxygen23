@@ -1,0 +1,630 @@
+//colors
+$white: white;
+$color_puerto_rico_approx: #52d3aa;
+$color_gray_approx: #828282;
+$black: black;
+$color_alabaster_approx: #fbfdfc;
+$gallery: #efefef;
+$color_chicago_approx: #5d5d5d;
+$white_50: rgba(255, 255, 255, 0.5);
+$color_gallery_approx: #eee;
+$color_wild_sand_approx: whitesmoke;
+$alice_blue: aliceblue;
+$concrete: #f2f2f2;
+$white_20: rgba(255, 255, 255, 0.2);
+$color_turquoise_approx: turquoise;
+$color_nobel_approx: #b3b3b3;
+
+//fonts
+$font_0: Work Sans;
+$font_1: Arial;
+$font_2: sans-serif;
+
+//urls
+$url_0: url(../img/img_bg_1.jpg);
+$url_1: url(../img/img_bg_2.jpg);
+
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+p {
+	text-align: center;
+	&.abf {
+		color: $color_gray_approx;
+		font-size: 12pt;
+		line-height: 2;
+		&.ed {
+			font-size: 16px;
+			margin-bottom: 17%;
+		}
+	}
+	&.srp {
+		font-size: 18px;
+		color: $color_gray_approx;
+	}
+	&.crcl {
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	&.nam {
+		font-size: 9pt;
+		color: $color_gray_approx;
+		text-transform: uppercase;
+	}
+	&.bg {
+		line-height: 2;
+		font-size: 18px;
+		color: $color_puerto_rico_approx;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	&.bbg {
+		line-height: 2;
+		font-size: 18px;
+		color: $color_puerto_rico_approx;
+		color: $color_gray_approx;
+	}
+	&.bw {
+		font-size: 13pt;
+		color: $color_puerto_rico_approx;
+	}
+	&.CL {
+		vertical-align: middle;
+		margin-bottom: auto;
+	}
+	&.bd {
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: start;
+		color: $black;
+	}
+	&.bgw {
+		line-height: 2;
+		font-size: 18px;
+		color: $color_puerto_rico_approx;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	&.fp {
+		font-size: 13pt;
+	}
+	&.fp1 {
+		font-weight: bold;
+		font-size: 12pt;
+	}
+	&.fp3 {
+		color: $color_puerto_rico_approx;
+		font-size: 13pt;
+		text-transform: uppercase;
+	}
+	&.fp2.left {
+		text-align: left;
+		color: $color_gray_approx;
+	}
+}
+.intro-section {
+	text-align: center;
+	background-image: $url_0;
+	background-size: cover;
+	height: 100%;
+}
+a {
+	&#home-tab {
+		color: $color_turquoise_approx;
+		
+		color: $color_nobel_approx;
+		padding-top: 7%;
+		height: 100%;
+		border-color: $color_wild_sand_approx;
+		border-width: 3px;
+		color: $color_puerto_rico_approx;
+	}
+	&#profile-tab {
+		color: $color_turquoise_approx;
+	
+		padding-top: 7%;
+		color: $color_puerto_rico_approx;
+		height: 100%;
+		border-color: $color_wild_sand_approx;
+		border-width: 3px;
+	}
+	&#contact-tab {
+		color: $color_turquoise_approx;
+		padding-top: 7%;
+		color: $color_puerto_rico_approx;
+		height: 100%;
+		border-color: $color_wild_sand_approx;
+		border-width: 3px;
+	}
+	&#very-tab {
+		color: $color_turquoise_approx;
+		
+		padding-top: 7%;
+		color: $color_puerto_rico_approx;
+		height: 100%;
+		border-color: $color_wild_sand_approx;
+		border-width: 3px;
+	}
+	&.btn.btn-default {
+		border-radius: 22px;
+		font-size: 27px;
+		border-radius: 15px;
+		margin-top: 13px;
+		background-color: $color_gray_approx;
+		width: 16%;
+		&.log {
+			background-color: $white;
+			width: 74px;
+			font-size: 13px;
+			color: $color_puerto_rico_approx;
+		}
+		&.page-scroll {
+			border-color: none;
+			border: none;
+			position: fixed;
+			right: 8px;
+			bottom: 10px;
+			border-radius: 10%;
+		
+			background-color: $color_gray_approx;
+			opacity: 1.5;
+			&.edit {
+				right: 21px;
+				bottom: 17px;
+				width: -3%;
+				border-radius: 0;
+				border-radius: none;
+				position: fixed;
+				bottom: 22;
+				right: 2;
+				border-radius: 6px;
+			}
+		}
+	}
+	&.navbar-brand.page-scroll.list {
+		color: $white;
+		text-transform: uppercase;
+	}
+}
+@media screen and(min-width: 992px) {
+	ul {
+		&.list-unstyled {
+			&.fp3 {
+				font-size: 13pt;
+				width: 247px;
+				display: inline-block;
+				color: $black;
+				font-size: 13pt;
+				width: 247px;
+				display: inline-block;
+				color: $black;
+				font-size: 13pt;
+				width: 247px;
+				display: inline-block;
+				color: $black;
+			}
+			&.list-inline.text-center.navlist {
+				display: none;
+				display: none;
+				display: none;
+			}
+		}
+		&.nav.navbar-nav {
+			margin-left: 251px;
+			font-size: 10pt;
+			font-family: $font_0, $font_1, $font_2;
+			margin-left: 251px;
+			font-size: 10pt;
+			font-family: $font_0, $font_1, $font_2;
+			margin-left: 251px;
+			font-size: 10pt;
+			font-family: $font_0, $font_1, $font_2;
+		}
+	}
+	p {
+		&.srp {
+			font-size: 18px;
+			color: $color_gray_approx;
+			margin-left: 200px;
+			margin-right: 200px;
+			font-size: 18px;
+			color: $color_gray_approx;
+			margin-left: 200px;
+			margin-right: 200px;
+			font-size: 18px;
+			color: $color_gray_approx;
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		&.bbg {
+			line-height: 2;
+			font-size: 18px;
+			color: $color_gray_approx;
+			width: 704px;
+			margin-left: auto;
+			margin-right: auto;
+			line-height: 2;
+			font-size: 18px;
+			color: $color_gray_approx;
+			width: 704px;
+			margin-left: auto;
+			margin-right: auto;
+			line-height: 2;
+			font-size: 18px;
+			color: $color_gray_approx;
+			width: 704px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	a.btn.btn-default {
+		&.log {
+			background-color: $white;
+			width: 74px;
+			margin-left: 237px;
+			font-size: 13px;
+			color: $color_puerto_rico_approx;
+			background-color: $white;
+			width: 74px;
+			margin-left: 237px;
+		    font-size: 13px;
+			color: $color_puerto_rico_approx;
+			background-color: $white;
+			width: 74px;
+			margin-left: 237px;
+		    font-size: 13px;
+			color: $color_puerto_rico_approx;
+		}
+		&.page-scroll {
+			width: 53px;
+			&.edit {
+				width: 50px;
+			}
+		}
+	}
+}
+ul {
+	&.list-unstyled {
+		&.fp3 {
+			font-size: 13pt;
+			display: inline-block;
+			color: $black;
+		}
+		&.list-inline.text-center {
+			background-color: $color_wild_sand_approx;
+			padding-top: 5%;
+			padding-bottom: 5%;
+		}
+	}
+	&#myTab {
+		background-color: $color_wild_sand_approx;
+		border: none;
+	}
+	&.nav.navbar-nav {
+		font-size: 10pt;
+		font-family: $font_0, $font_1, $font_2;
+	}
+	&.list-inline.right {
+		float: right;
+	}
+}
+.navbar {
+	background-color: transparent;
+	border: none;
+	position: relative;
+	font-color: $white;
+	padding: 30px 25px;
+	text-transform: uppercase;
+}
+.bigbrand {
+	font-size: 30pt;
+	font-family: $font_0, $font_2;
+	color: $white;
+}
+.smallbrand {
+	color: $white;
+	font-size: 15pt;
+	margin-bottom: 30px;
+}
+.space {
+	padding-top: 16%;
+	PADDING-BOTTOM: 16%;
+	vertical-align: middle;
+}
+.get {
+	padding: 0 37px;
+	margin-top: 8px;
+	text-align: center;
+	font-size: 18px;
+}
+.dp {
+	color: $color_puerto_rico_approx;
+	border-radius: 29.5px;
+}
+.about-section {
+	padding-top: 5%;
+	background: $white;
+}
+.set {
+	vertical-align: middle;
+	padding-bottom: 16%;
+	padding-top: 16%;
+}
+.bt {
+	border-radius: 61px;
+	background-color: $color_puerto_rico_approx;
+	border: 5px 10px solid $color_alabaster_approx;
+	color: $white;
+	width: 182PX;
+	height: 55px;
+	border-color: $color_puerto_rico_approx;
+	font-size: 15pt;
+	color: $color_puerto_rico_approx;
+	background-color: $white;
+	text-transform: uppercase;
+}
+.row {
+	&.ser {
+		padding-top: 16%;
+		padding-bottom: 21%;
+	}
+	&.con {
+		padding-top: 27%;
+	}
+	&.bs {
+		padding-top: 10%;
+		padding-bottom: 7%;
+	}
+	&.bb {
+		padding-bottom: 10%;
+	}
+	&.cll {
+		border-color: $alice_blue;
+		font-size: 17px;
+		margin-top: 5%;
+		border-style: solid;
+	}
+	     
+	&.bf {
+		padding-top: 10%;
+	}
+	&.bf2 {
+		padding-bottom: 10%;
+	}
+	&.efot {
+		padding-bottom: 8%;
+	}
+}
+.services-section {
+	padding-top: 5%;
+	background-color: $gallery;
+}
+.mdia {
+	display: table;
+}
+img {
+	&.img-vbg {
+		width: 100%;
+	}
+	&.img-fluid {
+		max-width: 100%;
+		width: 50%;
+		padding-top: auto;
+		padding-top: 21%;
+	}
+	&.d-flex.mr-3.rounded-circle.vbg {
+		margin-bottom: 7%;
+		width: 90px;
+	}
+}
+h1 {
+	color: $white;
+	&.hnum {
+		font-size: 36pt;
+	}
+	&.big {
+		color: $black;
+		line-height: 2.5;
+		font-weight: bold;
+	}
+	&.gdf {
+		font-weight: bold;
+		padding-bottom: 14%;
+	}
+}
+h5 {
+	font-size: 19px;
+	color: $color_chicago_approx;
+	padding: 5%;
+	&.mt-0.tim {
+		padding: 2%;
+	}
+}
+.hnum {
+}
+.contact-section {
+	text-align: center;
+	background-image: $url_1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 5%;
+}
+.num {
+	font-size: 13px;
+	color: rgba;
+	color: $white_50;
+}
+.cyricl-section {
+	text-align: center;
+	background: $color_gallery_approx;
+}
+.big-section {
+	text-align: center;
+	background: $color_gallery_approx;
+	height: 100%;
+	padding-top: 150px;
+}
+li {
+	&.itm {
+		width: 21%;
+	}
+	&.nav-item {
+		font-size: 18px;
+		height: 68px;
+		font-size: 16px;
+		width: 25%;
+	
+	}
+}
+.bdf {
+	text-transform: uppercase;
+	text-align: start;
+	color: $color_puerto_rico_approx;
+}
+input::-webkit-input-placeholder {
+	color: $white!important;
+}
+.forms-section {
+	font-size: 19px;
+	text-align: center;
+}
+.input-group {
+	background-color: $white_20;
+	width: 100%;
+	&.f {
+		border-radius: 5px;
+	}
+}
+.form-control {
+	font-size: 5px;
+	background-color: transparent;
+	border-color: transparent;
+	height: 47px;
+}
+.footr1-section {
+	text-align: center;
+	background: $color_gallery_approx;
+	height: 100%;
+	padding-top: 150px;
+}
+.fot1 {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-top: 10%; padding-bottom:10%;
+}
+.footr2-section {
+	text-align: center;
+	background: $color_gallery_approx;
+	height: 100%;
+	padding-top: 150px;
+}
+.copy {
+	width: 70%;
+}
+i {
+	color: $color_puerto_rico_approx;
+	&.fa.fa-long-arrow-up {
+		font-size: 18px;
+		width: 28px;
+		color: $white;
+		font-size: 21px;
+		width: 26px;
+	}
+}
+.rounded-centered {
+	width: 88px;
+	height: 87px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: $gallery;
+	border-radius: 50%;
+}
+.ald {
+	color: $color_puerto_rico_approx;
+}
+.navbar-brand.navbar-brand-left {
+	color: $white;
+	font-size: 16pt;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav {
+	> li > a {
+		color: $white;
+		text-transform: uppercase;
+	}
+	> li > a {
+		color: $white;
+		text-transform: uppercase;
+	}
+}
+button.btn {
+	&.btn-.btn-md.bt {
+		padding: -2pt;
+		padding: 3;
+		font-size: 10px;
+	}
+	&.btn-md.b2 {
+		background-color: $color_puerto_rico_approx;
+		border-radius: 28px;
+		width: 152px;
+		height: 44px;
+		color: $white;
+		font-size: 12pt;
+		text-transform: uppercase;
+	}
+	&.btn-primary.btn-md.bt {
+		width: 100%;
+		&.bt2 {
+			background-color: $color_puerto_rico_approx;
+			color: $white;
+			text-transform: uppercase;
+			&.smbtn {
+				font-size: 17px;
+			}
+		}
+	}
+}
+.col-lg-4.col-sm-4.text-center.mb-4 {
+	color: $color_puerto_rico_approx;
+	&.edt {
+		padding-bottom: 20%;
+	}
+}
+.col-lg-3.col-sm-3.text-center.mb-4 {
+	&.nub {
+		padding-bottom: 27%;
+	}
+	&.pdng {
+		padding: 2%;
+		border-color: $concrete;
+		color: $color_puerto_rico_approx;
+		&.bcg {
+			background-color: $concrete;
+		}
+	}
+}
+ol.carousel-indicators {
+	margin-bottom: 20%;
+	position: relative;
+}
+input.form-control {
+	font-size: 12pt;
+	border: none;
+}
+.col-sm-4.col-sm-4.for {
+	padding-bottom: 12px;
+}
+
+.col-lg-6.vvfot {
+	float: right;
+}
